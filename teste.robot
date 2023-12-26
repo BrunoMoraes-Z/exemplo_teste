@@ -11,5 +11,5 @@ Sample
     Call Method  ${options}  add_argument  --disable-dev-shm-usage
     Call Method  ${options}  add_argument  --window-size\=1920,1080
 
-    Open Browser  https://google.com  Chrome    options=${options}
+    Open Browser  https://google.com  headlessChrome    options=${options}
     Capture Page Screenshot
