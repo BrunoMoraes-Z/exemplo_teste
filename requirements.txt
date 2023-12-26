@@ -1,0 +1,5 @@
+robotframework
+robotframework-faker
+robotframework-requests
+robotframework-seleniumlibrary
+selenium==4.9.0
